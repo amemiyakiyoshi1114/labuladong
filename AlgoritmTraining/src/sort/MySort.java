@@ -186,6 +186,7 @@ public class MySort {
     public int[] heapSort(int[] source){
         //堆是近似完全二叉树的结构，所以我们使用数组来存储这个堆
         int[] result = Arrays.copyOf(source,source.length);
+        return result;
 
     }
 
